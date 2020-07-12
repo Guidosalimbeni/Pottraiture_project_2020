@@ -15,7 +15,7 @@ from keras.preprocessing.image import img_to_array
 from numpy import asarray
 from numpy import savez_compressed
 from skimage.transform import resize
-
+# https://medium.com/@yanweiliu/how-to-use-tensorflow-lite-in-flutter-e323422f64b8
 # https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/
 
 # https://www.digitalknights.co/blog/build-computer-vision-ios-app-in-flutter
