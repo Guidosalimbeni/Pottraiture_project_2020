@@ -2,14 +2,14 @@
 {
 	var canvas = document.querySelector( "#canvas" );
 	var context = canvas.getContext( "2d" );
-	canvas.width = 280;
-	canvas.height = 280;
+	canvas.width = 256;
+	canvas.height = 256;
 	var Mouse = { x: 0, y: 0 };
 	var lastMouse = { x: 0, y: 0 };
 	context.fillStyle="white";
 	context.fillRect(0,0,canvas.width,canvas.height);
 	context.color = "black";
-	context.lineWidth = 6;
+	context.lineWidth = 1;
 	context.lineJoin = context.lineCap = 'round';
 	debug();
 	canvas.addEventListener( "mousemove", function( e )
